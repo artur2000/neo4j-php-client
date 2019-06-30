@@ -192,7 +192,7 @@ class Session implements SessionInterface
         ]);
         $headers = [
             [
-                'X-Stream' => true,
+                'X-Stream' => 'true',
                 'Content-Type' => 'application/json',
             ],
         ];
